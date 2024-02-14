@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Valentine</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet/less" type="text/css" href="styles.less" />
+    <link rel="icon" href="heart.webp">
+    <script src="https://cdn.jsdelivr.net/npm/less"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="container">
+        <canvas id="particleCanvas"></canvas>
+    </div>
+    
+    <main>
+        <div class="playlist-wrapper">
+            <h1>Valentine Love Song</h1>
+            <h1 id="kyaa">＞﹏＜</h1>
+            <hr/>
+            <iframe src="https://open.spotify.com/embed/playlist/7lkxWZ4Htp2PK27MVXi7VC?utm_source=generator" width="100%" height="440px" frameborder="0" allowtransparency="true"></iframe>
+            
+            <div class="btn-div center">
+                <div class="border"></div>
+                <button id="direct" class="btn px-5 py-2 rounded-xl bg-red-soft border-white color-white center" style="width: 100%; margin-top: 30px;" >
+                    <h4 class="text-md ">Klik Aku Dong Kak</h4>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+         document.getElementById("direct").onclick = function () {
+    location.href = "valentine.html";
+}
+    </script>
+</body>
+</html>
